@@ -16,7 +16,7 @@ This command will install `vee-validate` and `@vee-validate/rules` automatically
 
 ### Plugin Configaration with validation rules
 
-You can add below code to main.ts:
+You can add below code to `main.ts`:
 
 ```sh
 import { defineRule, configure } from 'vee-validate'
