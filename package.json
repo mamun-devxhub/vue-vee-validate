@@ -1,6 +1,6 @@
 {
   "name": "@mdxh/vee-validate",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": false,
   "author": "DEVxHUB",
   "description": "Install vee-validate to vue3 using dxh wrapper",
@@ -19,6 +19,9 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
   },
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "vue": "^3.0.1"
   },
